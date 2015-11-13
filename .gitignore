@@ -1,0 +1,36 @@
+# Editors
+
+## Vim
+*.swp
+
+## Eclipse
+/.settings
+/.project
+/.classpath
+
+## IntelliJ
+/.idea
+
+## Netbeans
+### Fixme
+
+# Languages
+
+## Java
+/test/logs/*
+/test/data/*
+/test/config/*.user
+/test/config/*.pass
+/target
+
+## Python
+*.pyc
+__pycache__
+/*.egg-info
+/venv
+/dev-venv
+/build
+/dist
+
+## Ruby
+/Gemfile.lock
