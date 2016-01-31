@@ -1,4 +1,4 @@
-package com.goodgame.profiling.bifroest.bifroest_client.communication;
+package io.bifroest.bifroest_client.communication;
 
 import java.io.IOException;
 import java.util.Collection;

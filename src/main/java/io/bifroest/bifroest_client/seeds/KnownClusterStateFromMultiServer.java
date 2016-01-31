@@ -1,4 +1,4 @@
-package com.goodgame.profiling.bifroest.bifroest_client.seeds;
+package io.bifroest.bifroest_client.seeds;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

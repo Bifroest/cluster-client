@@ -1,4 +1,4 @@
-package com.goodgame.profiling.bifroest.bifroest_client.communication;
+package io.bifroest.bifroest_client.communication;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

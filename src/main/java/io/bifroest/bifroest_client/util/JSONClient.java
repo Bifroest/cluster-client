@@ -1,4 +1,4 @@
-package com.goodgame.profiling.bifroest.bifroest_client.util;
+package io.bifroest.bifroest_client.util;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;

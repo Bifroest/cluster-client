@@ -1,4 +1,4 @@
-package com.goodgame.profiling.bifroest.bifroest_client.metadata;
+package io.bifroest.bifroest_client.metadata;
 
 import java.util.Comparator;
 import java.util.Objects;
