@@ -21,17 +21,17 @@ import org.apache.logging.log4j.Logger;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-import com.goodgame.profiling.bifroest.balancing.BucketMapping;
-import com.goodgame.profiling.bifroest.bifroest_client.communication.BifroestCommunication;
-import com.goodgame.profiling.bifroest.bifroest_client.communication.SocketBasedBifroestCommunication;
-import com.goodgame.profiling.bifroest.bifroest_client.metadata.ClusterState;
-import com.goodgame.profiling.bifroest.bifroest_client.metadata.ClusterStateWithVersionedMapping;
-import com.goodgame.profiling.bifroest.bifroest_client.metadata.ClusterStateWithVersionedMapping.MappingWithVersion;
-import com.goodgame.profiling.bifroest.bifroest_client.metadata.NodeMetadata;
-import com.goodgame.profiling.bifroest.bifroest_client.util.JSONClient;
-import com.goodgame.profiling.commons.model.Interval;
-import com.goodgame.profiling.commons.model.Metric;
-import com.goodgame.profiling.graphite_retentions.MetricSet;
+import io.bifroest.balancing.BucketMapping;
+import io.bifroest.bifroest_client.communication.BifroestCommunication;
+import io.bifroest.bifroest_client.communication.SocketBasedBifroestCommunication;
+import io.bifroest.bifroest_client.metadata.ClusterState;
+import io.bifroest.bifroest_client.metadata.ClusterStateWithVersionedMapping;
+import io.bifroest.bifroest_client.metadata.ClusterStateWithVersionedMapping.MappingWithVersion;
+import io.bifroest.bifroest_client.metadata.NodeMetadata;
+import io.bifroest.bifroest_client.util.JSONClient;
+import io.bifroest.commons.model.Interval;
+import io.bifroest.commons.model.Metric;
+import io.bifroest.retentions.MetricSet;
 
 public class BasicClient implements BifroestClient, ClientCommands {
     private static final Logger log = LogManager.getLogger();

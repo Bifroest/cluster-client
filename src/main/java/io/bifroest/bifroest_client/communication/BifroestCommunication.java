@@ -5,7 +5,7 @@ import java.util.Collection;
 
 import org.json.JSONObject;
 
-import com.goodgame.profiling.bifroest.bifroest_client.metadata.NodeMetadata;
+import io.bifroest.bifroest_client.metadata.NodeMetadata;
 
 public interface BifroestCommunication {
     void sendToNode( NodeMetadata target, JSONObject message ) throws IOException;

@@ -12,7 +12,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.json.JSONObject;
 
-import com.goodgame.profiling.bifroest.bifroest_client.metadata.ClusterState;
+import io.bifroest.bifroest_client.metadata.ClusterState;
 
 public final class KnownClusterStateFromMultiServer implements KnownClusterStateRequester {
     private static final Logger log = LogManager.getLogger();

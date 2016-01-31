@@ -4,7 +4,7 @@ import java.util.Comparator;
 
 import org.json.JSONObject;
 
-import com.goodgame.profiling.commons.serialize.json.JSONSerializable;
+import io.bifroest.commons.serialize.json.JSONSerializable;
 
 public interface PortMap extends Comparable<PortMap>, JSONSerializable {
     int getClusterPort();

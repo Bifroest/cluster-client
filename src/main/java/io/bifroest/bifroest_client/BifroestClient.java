@@ -4,10 +4,10 @@ import java.io.IOException;
 import java.util.Collection;
 import java.util.Map;
 
-import com.goodgame.profiling.bifroest.bifroest_client.BasicClient.MetricState;
-import com.goodgame.profiling.commons.model.Interval;
-import com.goodgame.profiling.commons.model.Metric;
-import com.goodgame.profiling.graphite_retentions.MetricSet;
+import io.bifroest.bifroest_client.BasicClient.MetricState;
+import io.bifroest.commons.model.Interval;
+import io.bifroest.commons.model.Metric;
+import io.bifroest.retentions.MetricSet;
 
 
 public interface BifroestClient {

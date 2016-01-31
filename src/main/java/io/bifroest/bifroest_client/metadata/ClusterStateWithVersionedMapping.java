@@ -10,8 +10,7 @@ import java.util.concurrent.locks.ReentrantLock;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.goodgame.profiling.bifroest.balancing.BucketMapping;
-
+import io.bifroest.balancing.BucketMapping;
 
 public class ClusterStateWithVersionedMapping {
     private static final Logger log = LogManager.getLogger();

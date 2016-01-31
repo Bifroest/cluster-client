@@ -15,11 +15,11 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.json.JSONObject;
 
-import com.goodgame.profiling.bifroest.balancing.BucketMapping;
-import com.goodgame.profiling.bifroest.bifroest_client.ClientCommands;
-import com.goodgame.profiling.bifroest.bifroest_client.metadata.MappingFactory;
-import com.goodgame.profiling.bifroest.bifroest_client.metadata.NodeMetadata;
-import com.goodgame.profiling.commons.systems.cron.TaskRunner;
+import io.bifroest.balancing.BucketMapping;
+import io.bifroest.bifroest_client.ClientCommands;
+import io.bifroest.bifroest_client.metadata.MappingFactory;
+import io.bifroest.bifroest_client.metadata.NodeMetadata;
+import io.bifroest.commons.cron.TaskRunner;
 
 public class SocketBasedBifroestCommunication implements BifroestCommunication {
     private static final Logger log = LogManager.getLogger();

@@ -1,11 +1,9 @@
 package io.bifroest.bifroest_client.metadata;
 
-import com.goodgame.profiling.bifroest.balancing.BucketMapping;
-import com.goodgame.profiling.bifroest.balancing.KeepNeighboursMapping;
-import com.goodgame.profiling.bifroest.bifroest_client.metadata.NodeMetadata;
-
 import org.json.JSONObject;
 
+import io.bifroest.balancing.BucketMapping;
+import io.bifroest.balancing.KeepNeighboursMapping;
 
 public final class MappingFactory {
 

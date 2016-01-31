@@ -8,8 +8,8 @@ import java.util.Objects;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-import com.goodgame.profiling.bifroest.balancing.BucketMapping;
-import com.goodgame.profiling.commons.serialize.json.JSONSerializable;
+import io.bifroest.balancing.BucketMapping;
+import io.bifroest.commons.serialize.json.JSONSerializable;
 
 public final class ClusterState implements JSONSerializable {
     private final List<NodeMetadata> knownNodes = new ArrayList<>();

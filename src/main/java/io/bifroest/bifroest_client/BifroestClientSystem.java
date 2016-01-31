@@ -1,6 +1,5 @@
 package io.bifroest.bifroest_client;
 
-
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -12,12 +11,12 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 import org.kohsuke.MetaInfServices;
 
-import com.goodgame.profiling.bifroest.bifroest_client.metadata.ClusterState;
-import com.goodgame.profiling.bifroest.bifroest_client.seeds.HostPortPair;
-import com.goodgame.profiling.bifroest.bifroest_client.seeds.KnownClusterStateFromMultiServer;
-import com.goodgame.profiling.bifroest.bifroest_client.seeds.KnownClusterStateRequester;
-import com.goodgame.profiling.commons.boot.interfaces.Subsystem;
-import com.goodgame.profiling.commons.statistics.units.parse.DurationParser;
+import io.bifroest.bifroest_client.metadata.ClusterState;
+import io.bifroest.bifroest_client.seeds.HostPortPair;
+import io.bifroest.bifroest_client.seeds.KnownClusterStateFromMultiServer;
+import io.bifroest.bifroest_client.seeds.KnownClusterStateRequester;
+import io.bifroest.commons.boot.interfaces.Subsystem;
+import io.bifroest.commons.statistics.units.parse.DurationParser;
 
 @MetaInfServices
 public class BifroestClientSystem<E extends EnvironmentWithMutableBifroestClient> implements Subsystem<E> {

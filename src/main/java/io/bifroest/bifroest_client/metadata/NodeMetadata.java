@@ -4,9 +4,9 @@ import java.util.Comparator;
 import java.util.Objects;
 import java.util.UUID;
 
-import com.goodgame.profiling.commons.serialize.json.JSONSerializable;
-
 import org.json.JSONObject;
+
+import io.bifroest.commons.serialize.json.JSONSerializable;
 
 public final class NodeMetadata implements JSONSerializable {
     // Yes I want silly names. We will go mad if we debug this with UUIDs.
